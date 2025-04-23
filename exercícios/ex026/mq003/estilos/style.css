@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Delarações gerais*/
+@media all{
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: #fff;
+        text-shadow: 2px 2px 0px #1526a7;
+        padding: 10px;
+    }
+}
+
+/*Declarações retrato*/
+@media screen and (orientation: portrait) {
+    body{
+        background: url(../imagens/Spider-Man\ -\ Retrato.jpg);background-position: center;
+    }
+}
+
+/*Declarações paisagem*/
+@media screen and (orientation: landscape) {
+    body{
+        background: url(../imagens/Spider-Man\ -\ Paisagem.jpg);background-position: center center;
+    }
+}

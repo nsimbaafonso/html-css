@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/*Aparelho deitado (Landscape)*/
+body{
+    background: url(../imagens/Spider-Man\ -\ Paisagem.jpg);
+    background-position: center center;
+}
