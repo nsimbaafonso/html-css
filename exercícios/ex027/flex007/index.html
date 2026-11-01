@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box 7</title>
+    <style>
+        .container {
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row wrap; 
+            align-items: flex-start;
+            height: 400px;
+        }
+        .item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        #i1 {
+        }
+        #i2 {
+            align-self: auto;
+        }
+        #i3 {
+            align-self: flex-end;
+        }
+        #i4 {
+        }
+        #i5 {
+            align-self: center;
+        }
+        #i6 {
+        }
+        #i7 {
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Exemplo de bloco A</div>
+        <div class="item" id="i2">Exemplo de bloco B</div>
+        <div class="item" id="i3">Exemplo de bloco C</div>
+        <div class="item" id="i4">Exemplo de bloco D</div>
+        <div class="item" id="i5">Exemplo de bloco E</div>
+        <div class="item" id="i6">Exemplo de bloco F</div>
+        <div class="item" id="i7">Exemplo de bloco G</div>
+    </div>
+</body>
+</html>
